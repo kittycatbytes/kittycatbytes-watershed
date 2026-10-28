@@ -1,0 +1,22 @@
+{
+  "name": "kittycatbytes-watershed",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A page for Watershed's hiring team, built with the same application stack as watershed.com.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "16.4.3",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.1",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "typescript": "^5.9.3"
+  }
+}
