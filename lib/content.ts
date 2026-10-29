@@ -1,3 +1,5 @@
+// Typed module for now. A CMS would sit behind this same shape, the way watershed.com uses Sanity, so the page does not change when the source does.
+
 export const profile = {
   name: "Catherine Taneyhill",
   email: "ctaneyhill@gmail.com",

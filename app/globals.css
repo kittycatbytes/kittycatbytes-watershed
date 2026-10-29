@@ -1,3 +1,15 @@
+/**
+ * Each color is written once, at the top of this file, under a name such as --cobalt: #265cff.
+ * Buttons, links, and focus rings say var(--cobalt) instead of repeating the hex, so a change to
+ * that one line changes all of them.
+ * The names stay in this stylesheet. A second file would matter only if many stylesheets shared them.
+ * A class such as cobalt on each element is a different approach. This file does not do that. The
+ * button rule, the link rule, and the focus rule each point at the shared name.
+ * These values are the public watershed.com palette. If Watershed changed that blue, or a dark theme
+ * needed the same names to mean different colors, the edit stays in this block.
+ * The small mark in app/page.tsx is the exception. Its fills are written as hex on the drawing, so
+ * changing --cobalt does not change that mark.
+ */
 :root {
   --ink: #041330;
   --headline: #131b24;

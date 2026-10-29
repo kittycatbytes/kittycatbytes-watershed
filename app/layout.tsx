@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist_Mono, Instrument_Sans } from "next/font/google";
 import "./globals.css";
 
+// The font files ship with the app. Linking out to a font service would make the browser fetch them from a second site, and the text can jump when they arrive.
 const sans = Instrument_Sans({
   subsets: ["latin"],
   weight: ["400", "500", "600"],
@@ -37,6 +38,7 @@ export const metadata: Metadata = {
   },
 };
 
+// Name, email, and links are written again here for the browser tab and for search engines. Reading them from profile would keep the hidden copy in step with the page.
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Person",

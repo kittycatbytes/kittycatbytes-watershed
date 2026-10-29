@@ -1,5 +1,6 @@
 import { depth, depthIntro, fit, hero, logistics, profile, why, work } from "@/lib/content";
 
+// One server component on purpose. Split sections into their own components when a second route exists, and pass this content in as props. No client bundle until a section needs state.
 export default function HomePage() {
   return (
     <>
@@ -77,6 +78,7 @@ export default function HomePage() {
             <h2>{why.title}</h2>
           </div>
           <div className="prose">
+            {/* Keyed by the copy for now. A CMS record needs a stable id, or an edited paragraph remounts and two identical lines collide. */}
             {why.paragraphs.map((paragraph) => (
               <p key={paragraph}>{paragraph}</p>
             ))}
@@ -129,6 +131,7 @@ export default function HomePage() {
           </div>
           <div className="accordion">
             {depth.map((item) => (
+              /* The browser's built-in show/hide element, so this section needs no extra JavaScript. */
               <details key={item.title}>
                 <summary>
                   <span>{item.title}</span>
