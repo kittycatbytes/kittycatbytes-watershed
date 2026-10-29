@@ -9,7 +9,7 @@ export const profile = {
 export const hero = {
   eyebrow: "Staff product engineer, full-stack",
   title: "A number someone will file, and act on.",
-  lede: "I’m a senior software engineer. Thirteen years shipping production software, eight of them on Netflix’s TV and web player, through October 14, 2026. I want this role, in the New York office, four days a week.",
+  lede: "I’m a senior software engineer. Thirteen years shipping production software, eight of them on Netflix’s TV and web player, through October 14, 2026. I want this role, in the New York office, with Thursday and Friday remote one week a month.",
 };
 
 export const why = {
@@ -18,7 +18,7 @@ export const why = {
   paragraphs: [
     "The posting reads as two possible teams: financial-institution workflows, or turning the data layer into something a climate lead can use. I am interested in both. Both are a data-definition problem with a product on top. If this is the financial-institutions team, I have already built for that user. The Federal Reserve Board used an application I owned the architecture for, on finance APIs, to make financial decisions.",
     "A wrong emissions number becomes a filing, a portfolio decision, or a target someone manages to. I have already done the unglamorous version of that problem, where a trusted number was wrong because the population was wrong.",
-    "I also want to be closer to the customer than I was. About four hundred people, a real enterprise product, four days in New York. That is the shape I want.",
+    "I also want to be closer to the customer than I was. About four hundred people, a real enterprise product, and the New York office. That is the shape I want.",
   ],
 };
 
@@ -109,7 +109,7 @@ export const depth = [
 ];
 
 export const logistics = [
-  "New York. I want the four days in the office.",
+  "New York office, with Thursday and Friday remote one week a month.",
   "No visa sponsorship.",
   "I can start within two to three weeks of an offer.",
   "B.B.A., University of Miami Business School.",

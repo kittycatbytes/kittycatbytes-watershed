@@ -65,7 +65,7 @@ export default function HomePage() {
               </div>
               <div>
                 <dt>Where</dt>
-                <dd>New York, four days</dd>
+                <dd>New York, one remote Thu–Fri a month</dd>
               </div>
             </dl>
           </aside>
